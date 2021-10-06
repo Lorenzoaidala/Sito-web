@@ -1,0 +1,299 @@
+body {
+    font-family:  verdana,arial, sans-serif;
+    background-color:white;
+    color:black;
+}
+.Header{
+    grid-area: header;
+    padding : 1.2em;
+    background-color: #191970;
+    color: white;
+    text-align: center;
+    border-bottom : white solid 0.2em;
+}
+
+.Saldo {
+    grid-area : saldo;
+    text-align : right;
+    font-size : 1.2em;
+    font-family : Verdana,Sans-Serif;
+    background-color: #191970;
+    padding : 1.2em;
+    color: white;
+    font-weight : bold;
+    border-bottom : white solid 0.2em;
+    }
+.menu1{
+    grid-area: menu1;
+    background-color: #E6E6FA;
+    border-bottom : white solid 0.2em;
+    padding:0.7em;
+    border-radius : 1em;
+    font-weight : bold;
+    text-align: center;}
+    
+.menu2{
+    grid-area: menu2;
+    background-color: #E6E6FA;
+    border-bottom : white solid 0.2em;
+    padding:0.7em;
+    border-radius : 1em;
+    font-weight : bold;
+    text-align: center;
+}
+.menu3{
+    grid-area: menu3;
+    background-color: #E6E6FA;
+    border-bottom : white solid 0.2em;
+    padding:0.7em;
+    border-radius : 1em;
+    font-weight : bold;
+    text-align: center;}
+    
+
+.menu4{
+    grid-area: menu4;
+    background-color: #E6E6FA;
+    border-bottom : white solid 0.2em;
+    padding:0.7em;
+    font-weight : bold;
+    border-radius : 1em;
+    text-align: center;
+}
+.menu5{
+    grid-area: menu5;
+    background-color: #E6E6FA;
+    border-bottom : white solid 0.2em;
+    padding:0.7em;
+    font-weight : bold;
+    border-radius : 1em;
+    text-align: center;
+}
+.menu6{
+    grid-area: menu6;
+    background-color: #E6E6FA;
+    border-bottom : white solid 0.2em;
+    padding:0.7em;
+    border-radius : 1em;
+    font-weight : bold;
+    text-align: center;
+}
+.menu7{
+    grid-area: menu7;
+    background-color: #E6E6FA;
+    padding:0.7em;
+    border-radius : 0.8em;
+    font-weight : bold;
+    text-align: center;
+}
+.Main {
+    grid-area: main;
+    padding: 1ex 2ex;
+    background-color:white;
+
+}
+.Footer {
+    grid-area: footer;
+    padding:0.9em;
+    background-color: #CAE1FF;
+    text-align: center;
+}
+img.immagine {
+    width : 65em;
+    height : 33em;
+    }
+    .tabellaInfo {
+        background-color :white;
+        text-align : left;
+        border-radius : 1em;
+        font-size : 0.8em;
+        font-family : Verdana, Arial, Sans-Serif;
+        padding : 1.5em 1.5em;
+        }
+        .tabellaInfo td {
+        font-size : 1.6em;
+        padding : 0.3em 1em;
+        }
+        .tabellaInfo th {
+        font-size : 1.8em;
+        padding : 0.3em 1em;
+        font-weight : bold;
+        }
+
+.OrdinaTabella{
+    background-color :white;
+        text-align : left;
+        border-radius : 1em;
+        font-size : 0.8em;
+        font-family : Verdana, Arial, Sans-Serif;
+        padding : 1.5em 1.5em;
+}
+.OrdinaTabella td {
+    font-size : 1.6em;
+    padding : 0.3em 1em;
+    }
+    .OrdinaTabella th {
+        font-size : 1.8em;
+        padding : 0.3em 1em;
+        font-weight : bold;
+    }
+
+    .tabellaLogin{
+        text-align : center;
+        border-radius : 1em;
+        font-size : 0.8em;
+        font-family : Verdana, Arial, Sans-Serif;
+        padding : 2em 2em;
+    }
+    .tabellaLogin td {
+        text-align : center;
+        font-size : 1.6em;
+        padding : 0.7em 0.7em;
+        }
+        .tabellaLogin th {
+        text-align : center;
+        font-size : 1.8em;
+        padding : 1em 7em;
+        font-weight : bold;
+        }
+    .tabellaRegistrati{
+        text-align : center;
+        border-radius : 1em;
+        font-size : 0.8em;
+        font-family : Verdana, Arial, Sans-Serif;
+        padding : 2em 2em;
+    }
+    .tabellaRegistrati td {
+        text-align : center;
+        font-size : 1.6em;
+        padding : 0.8em 0.8em;
+        }
+        .tabellaRegistrati th {
+        text-align : center;
+        font-size : 1.8em;
+        padding : 1em 7em;
+        font-weight : bold
+        }
+
+    #invia{
+        text-align : center;
+        position : relative;
+        left:35%;
+        right:35%;
+        padding :0.8em 1.6em;
+        border-radius : 0.2em;
+     }
+     #reset{
+        text-align : center;
+        position : relative;
+        left:35%;
+        right:35%;
+        padding :0.8em 1.6em;
+        border-radius : 0.2em;
+     }
+@media only screen and (min-width: 1200px) {
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows:  0.5fr;
+    grid-template-areas:
+            'header header header saldo saldo'
+            'menu1 main main main main'
+            'menu2 main main main main'
+            'menu3 main main main main'
+            'menu4 main main main main'
+            'menu5 main main main main'
+            'menu6 main main main main'
+            'menu7 main main main main'
+            'footer footer footer footer footer';
+
+}
+}
+a:link {
+    text-decoration : none;
+    }
+    a:hover {
+    color : #DEB887;
+    }
+    a:active {
+    color : #DEB887;
+    text-decoration : none;
+    }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .grid-container {
+    display : grid;
+    grid-template-areas : 'header' 'saldo' 'menu1' 'menu2' 'menu3' 'menu4' 'menu5' 'menu6' 'menu7' 'main' 'footer';
+    }
+    img.immagine {
+        width : 100%;
+        height : 100%;
+        border : white solid 0.5em;
+        }
+}
+    @media only screen and (min-width: 0px) and (max-width: 768px) {
+        .grid-container {
+            display : grid;
+            grid-template-areas : 'header' 'saldo' 'menu1' 'menu2' 'menu3' 'menu4' 'menu5' 'menu6' 'menu7' 'main' 'footer';
+            }
+            img.immagine {
+                width : 100%;
+                height : 100%;
+                border : white solid 0.5em;
+                }
+                .tabellaInfo {
+                    background-color :white;
+                    text-align : left;
+                    border-radius : 0.5em;
+                    font-size : 0.3em;
+                    font-family : Verdana, Arial, Sans-Serif;
+                    padding : 1em 1em;
+                    }
+                    .tabellaInfo td {
+                    font-size : 3.3em;
+                    padding : 0.1em 0.1em;
+                    }
+                    .tabellaInfo th {
+                    font-size : 3.3em;
+                    padding : 0.1em 01em;
+                    font-weight : bold;
+                    }
+            
+            .OrdinaTabella{
+                background-color :white;
+                    text-align : left;
+                    border-radius : 1em;
+                    font-size : 0.8em;
+                    font-family : Verdana, Arial, Sans-Serif;
+                    padding : 1em 1em;
+            }
+            .OrdinaTabella td {
+                font-size : 1.6em;
+                padding : 0.3em 0.2em;
+                }
+                .OrdinaTabella th {
+                    font-size : 1.8em;
+                    padding : 0.3em 1em;
+                    font-weight : bold;
+                }
+            
+                .tabellaLogin{
+                    text-align : center;
+                    border-radius : 1em;
+                    font-size : 0.8em;
+                    font-family : Verdana, Arial, Sans-Serif;
+                    padding : 1em 1em;
+                }
+                .tabellaLogin td {
+                    text-align : center;
+                    font-size : 1.6em;
+                    padding : 0.7em 0.7em;
+                    }
+                    .tabellaLogin th {
+                    text-align : center;
+                    font-size : 1.8em;
+                    padding : 1em 1em;
+                    font-weight : bold;
+                    }
+    }
+    
+    
